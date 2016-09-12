@@ -7,6 +7,8 @@ If it is ready in your repo, pls. an send me email on kajo@mewe.com and we will 
 
 If this is not convenient for you, send it to me by email as one zipped file.
 
+Every example/task need to be able to executed by `node ex01.js` command.
+
 Use lodash library and some functional aspects of javascript, eg:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
