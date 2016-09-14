@@ -10,3 +10,7 @@ function doubleAll(numbers) {
   }
   return result
 }
+
+function doubleAll_converted(numbers) {
+    return numbers.map(n => n * 2);
+}

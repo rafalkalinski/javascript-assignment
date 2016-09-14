@@ -19,7 +19,19 @@ var groups = [
 ];
 
 var group = function(groups){
-  /* your code here */
+    var confirmed, result, unconfirmed;
+
+    return _.chain(groups)
+        .partition({'confirmed': true})
+        .transform((result, part) => {
+            result.push(
+                _.chain(part)
+                .map('id')
+                .chunk(2)
+                .value()
+            );
+        })
+        .value();
 }
 
 console.log( group(groups) );

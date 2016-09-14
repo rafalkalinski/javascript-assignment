@@ -12,11 +12,11 @@ The function should return an array containing the messages themselves, without 
     {
       message: 'Esse id amet quis eu esse aute officia ipsum.' // random
     }
-  
+
   Hint - try chaining some Array methods!
 
 */
 
-function getShortMessages(){
-  /* your code */
+function getShortMessages(items){
+    return items.filter(item => item.message.length < 50).map(item => item.message);
 }
